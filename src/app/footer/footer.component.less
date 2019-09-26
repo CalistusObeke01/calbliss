@@ -1,0 +1,32 @@
+@parentBackgroundColor: #607D8B;
+@childBackgroundColor: rgba(0,0,0,.3);
+@highlightColor: #fff;
+
+
+.parent {
+  padding: 100px;
+  position: relative;
+  background-color: @parentBackgroundColor;
+}
+
+.child {
+  text-align: center;
+  background-color: @childBackgroundColor;
+  padding: 20px;
+  color:  lighten(@parentBackgroundColor, 15%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#copyright-styling{
+  color: @highlightColor;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-size: inherit;
+
+  &:hover, &:visited {
+    text-decoration: underline;
+  }
+}

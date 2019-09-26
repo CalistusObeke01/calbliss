@@ -1,0 +1,10 @@
+#header {
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-image: linear-gradient(to right, #607D8B, rgba(0, 0, 0, 0.3), #607D8B);
+  background-image: -moz-linear-gradient(to right, #607D8B, rgba(0, 0, 0, 0.3), #607D8B);
+  background-image: -webkit-linear-gradient(to right, #607D8B, rgba(0, 0, 0, 0.3), #607D8B);
+}
