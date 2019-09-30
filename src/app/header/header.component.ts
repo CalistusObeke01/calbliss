@@ -7,7 +7,6 @@ import * as $ from 'jquery';
   styleUrls: ['./header.component.less']
 })
 export class HeaderComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
